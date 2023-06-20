@@ -15,7 +15,6 @@ logs/
 .m2/
 
 # Ignorar arquivos de configuração local
-application.properties
 application.yml
 
 # Ignorar arquivos de log local
