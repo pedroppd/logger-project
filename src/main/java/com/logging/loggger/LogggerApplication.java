@@ -21,5 +21,6 @@ public class LogggerApplication implements CommandLineRunner {
         log.info("rr", "nome", "pedro2", "valor", 170);
         log.info("tttt", "nome", "pedro3", "valor", 107);
         log.info("yyy", "nome", "pedro4", "valor", 170);
+        log.error("error", "stack", "123", "email", "teste@gmail.com");
     }
 }
