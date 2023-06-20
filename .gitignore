@@ -19,7 +19,6 @@ application.properties
 application.yml
 
 # Ignorar arquivos de log local
-logback.xml
 log4j2.xml
 
 # Ignorar arquivos temporários

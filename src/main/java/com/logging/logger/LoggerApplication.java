@@ -19,7 +19,6 @@ public class LoggerApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-
         log.info("Testando log info", "tid", UUID.randomUUID().toString(), "name", "Pedro", "lastName", "Gabriel", "email", "pedro@gmail.com", "id", 107);
         log.info("Testando log info", "tid", UUID.randomUUID().toString(), "name", "Maria", "lastName", "Silva", "email", "maria@gmail.com", "id", 170);
         log.info("Testando log info", "tid", UUID.randomUUID().toString(), "name", "Junior", "lastName", "Dos Santos", "email", "junior@gmail.com", "id", 1027);
