@@ -8,13 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.UUID;
 
 @SpringBootApplication
-public class LogggerApplication implements CommandLineRunner {
+public class LoggerApplication implements CommandLineRunner {
 
     @Autowired
     private Log log;
 
     public static void main(String[] args) {
-        SpringApplication.run(LogggerApplication.class, args);
+        SpringApplication.run(LoggerApplication.class, args);
     }
 
     @Override
