@@ -41,7 +41,7 @@ public class Log {
         AtomicBoolean error = new AtomicBoolean(false);
         CopyOnWriteArrayList<Object> list = new CopyOnWriteArrayList<>(args);
 
-        MDC.put("component", "mcare-claro-quero-wifi-bff");
+        MDC.put("serviceName", "service-name-example");
 
         list.forEach(o -> {
             if (list.size() >= 2) {
