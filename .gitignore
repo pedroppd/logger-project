@@ -1,0 +1,35 @@
+# Ignore arquivos gerados pelo IDE
+.idea/
+.vscode/
+
+# Ignorar arquivos de compilação e arquivos gerados
+target/
+bin/
+out/
+
+# Ignorar arquivos de log
+logs/
+
+# Ignorar dependências gerenciadas pelo Maven
+## Se você usa Gradle, substitua ".m2" por ".gradle"
+.m2/
+
+# Ignorar arquivos de configuração local
+application.properties
+application.yml
+
+# Ignorar arquivos de log local
+logback.xml
+log4j2.xml
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de dependências baixadas
+dependency-reduced-pom.xml
+
+# Ignorar arquivos gerados durante o processo de compilação
+build/
+dist/
+classes/
