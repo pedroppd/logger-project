@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Component
 public class Log {
 
-    @Value("${debug}")
+    @Value("${debug:false}")
     private Boolean showDebug;
     private final Logger log = LoggerFactory.getLogger(this.getClass().getCanonicalName());
     private final Logger logDebug = LoggerFactory.getLogger("local.debug.logger");
