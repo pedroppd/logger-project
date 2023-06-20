@@ -1,13 +1,7 @@
-package com.logging.loggger;
+package com.logging.logger;
 
-import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.contrib.jackson.JacksonJsonFormatter;
-import ch.qos.logback.contrib.json.classic.JsonLayout;
-import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializerProvider;
-import com.fasterxml.jackson.databind.module.SimpleModule;
 
 import java.io.IOException;
 import java.text.DateFormat;

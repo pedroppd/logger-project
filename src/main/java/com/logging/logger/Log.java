@@ -1,4 +1,4 @@
-package com.logging.loggger;
+package com.logging.logger;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
